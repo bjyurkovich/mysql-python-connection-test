@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS TestConnections; USE TestConnections;
+
+DROP TABLE IF EXISTS Test;
+
+CREATE TABLE `Test` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT, 
+  `data` VARCHAR(255) NOT NULL, 
+  PRIMARY KEY (`id`)
+);
